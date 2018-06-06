@@ -1,0 +1,367 @@
+/* ==== CUSTOM CSS FOR PRACTICE ==== */
+
+
+/*
+    
+    #3498db
+    #ecf0f1
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+
+/* ==== USABLE ==== */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* ==== HEADER ==== */
+
+.section-header {
+    width: 100vw;
+    height: 65vh;
+    background: url('img/banner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-header header,
+.second-section {
+    padding-top: 3.5em;
+}
+
+.second-section {
+    width: 100vw;
+    margin-bottom: 3.5em;
+}
+
+.second-section header,
+.second-section .long-copy {
+    width: 80%;
+}
+
+.logo {
+    float: left;
+}
+
+.one article,
+.two article {
+    /*    padding: 0 2em 0 2em;*/
+    border-right: 1px solid #ccc;
+}
+
+.three article {
+    border: none;
+}
+
+
+/* ==== LINKS & MAIN NAV==== */
+
+.main-nav {
+    float: right;
+}
+
+.main-nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.main-nav li:nth-child(2) {
+    margin: 0 20px 0 20px;
+}
+
+.logo a:link,
+.logo a:visited {
+    color: #fff;
+}
+
+.main-nav a:link,
+.main-nav a:visited,
+.logo a:link,
+.logo a:visited {
+    text-decoration: none;
+    font-size: 90%;
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+
+.main-nav a:link,
+.main-nav a:visited {
+    color: #ecf0f1;
+    font-weight: 100;
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.col footer a:link,
+.col footer a:visited {
+    text-decoration: none;
+    border: 1px solid transparent;
+    background: #5385c1;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 200;
+}
+
+.col footer a:hover,
+.col footer a:active {
+    background: #6c97ca;
+}
+
+
+/* ==== HEADINGS ==== */
+
+h1,
+h2 {
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 300%;
+    margin-top: 4rem;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 85%;
+}
+
+h3 {
+    font-size: 120%;
+    font-weight: 200;
+    color: #5385c1;
+    margin-bottom: 2rem;
+}
+
+hgroup {
+    clear: both;
+}
+
+
+/* ==== PARAGRAPHS ==== */
+
+.long-copy {
+    font-size: 80%;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    line-height: 1.5em;
+}
+
+
+/* ==== SECTION THIRD ==== */
+
+.section-third {
+    width: 100vw;
+    height: 75%;
+    background: #5385c1;
+}
+
+.section-third .col {
+    margin-left: 0;
+    margin-bottom: 7rem;
+}
+
+.section-third .user {
+    margin-left: 20px;
+}
+
+.section-third .col:first-of-type .user {
+    margin-left: 0;
+}
+
+.section-third .span-1-of-4 {
+    /*	width: 23.8%; */
+    width: 25%;
+}
+
+.section-third h2,
+.section-third h3 {
+    color: #fff;
+}
+
+.section-third h2 {
+    font-size: 220%;
+    letter-spacing: -1px;
+    margin: 5rem 0 1rem 0;
+}
+
+.section-third h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 90%;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+/* ==== USER ==== */
+
+.user {
+    border: 1px solid #ccc;
+    width: 231px;
+    height: 333px;
+}
+
+.user-photo {
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.user-photo img {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.user-name,
+.user-comment {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.user-name {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.user-name span {
+    font-size: 100%;
+    font-weight: 300;
+}
+
+.user-comment span {
+    font-size: 80%;
+    font-weight: 100;
+}
+
+
+/* ==== SECTION FOR ==== */
+
+.section-forth {
+    width: 100vw;
+    padding-bottom: 3rem;
+}
+
+.section-forth .row::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #dbdbdb;
+    width: 100%;
+}
+
+.section-forth .col:nth-of-type(2) article {
+    margin-left: 27px;
+}
+
+.section-forth article {
+    width: 95%;
+    margin-bottom: 4rem;
+}
+
+.section-forth .col:first-of-type {
+    margin-left: 0;
+}
+
+.section-forth h2,
+.section-forth h3 {
+    text-align: center;
+}
+
+.section-forth h2 {
+    color: #5385c1;
+    font-size: 220%;
+    letter-spacing: -1px;
+    margin: 5rem 0 1rem 0;
+}
+
+.section-forth h3 {
+    font-size: 90%;
+    color: #bbb;
+    font-weight: 300;
+}
+
+.section-forth img {
+    width: 100%;
+}
+
+.section-forth h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    color: #5385c1;
+    font-weight: 300;
+    margin: 1rem 0 1rem 0;
+}
+
+.section-forth p {
+    font-size: 90%;
+    font-weight: 300;
+    color: #9a9a9a;
+    margin-bottom: 2rem;
+    line-height: 1.3rem;
+}
+
+
+/* ==== FOOTER ==== */
+
+.section-footer {
+    width: 100vw;
+    height: 2vh;
+}
+
+.section-footer footer {
+    width: auto;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.copyright,
+.networks {
+    display: inline-block;
+}
+
+.copyright span {
+    font-size: 90%;
+    color: #bbb;
+    font-weight: 300;
+}
+
+.networks li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.networks li:last-child {
+    margin-right: 0;
+}
+
+.fa {
+    color: #5385c1;
+}
